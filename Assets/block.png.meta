@@ -44,7 +44,7 @@ TextureImporter:
   alignment: 2
   spritePivot: {x: 0.5, y: 1}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 20
+  spritePixelsToUnits: 21.333334
   alphaIsTransparency: 1
   textureType: 8
   buildTargetSettings: []
