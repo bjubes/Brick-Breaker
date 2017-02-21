@@ -86,6 +86,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Health: 1
+  light: {r: 0.73333335, g: 0.73333335, b: 0.3764706, a: 1}
+  dark: {r: 0.43382353, g: 0.43382353, b: 0.27751946, a: 1}
 --- !u!212 &21264280
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -116,7 +118,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: d77eab5ec1cd84a07927d151fe097c49, type: 3}
-  m_Color: {r: 0.7352941, g: 0.7352941, b: 0.3784602, a: 1}
+  m_Color: {r: 0.43137255, g: 0.43137255, b: 0.27450982, a: 1}
   m_FlipX: 0
   m_FlipY: 0
 --- !u!1001 &100100000

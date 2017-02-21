@@ -1,7 +1,9 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
+using System;
+using Random = UnityEngine.Random;
 
 public class GameManager : MonoBehaviour {
 
@@ -9,6 +11,7 @@ public class GameManager : MonoBehaviour {
 	public GameObject dumbBall;
 	public GameObject block;
 	public GameObject token;
+    public event Action<int> TurnEnd;
 
 	public Color max, min;
 	public Text scoreText, ballCountText;
@@ -108,6 +111,7 @@ public class GameManager : MonoBehaviour {
 		}
 
 		SpawnBlockRow ();
+        TurnEnd(Score);
 	}
 
 	void CreateNewBall() {

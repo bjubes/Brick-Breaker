@@ -35,7 +35,7 @@ public class DragScript : MonoBehaviour {
 		//line
 		if (hasClickedDown) {
 			lr.enabled = true;
-			lr.SetPosition (0, downPos);
+			lr.SetPosition (1, downPos);
 			lr.SetPosition (0, Camera.main.ScreenToWorldPoint (Input.mousePosition));
 		}
 
